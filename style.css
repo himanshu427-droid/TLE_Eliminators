@@ -1,0 +1,425 @@
+*
+{
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    /* padding: 0;
+    overflow-x:hidden; */
+    margin:  auto 0;
+
+    
+}
+
+
+body
+{
+    justify-content: center;
+
+    
+}
+
+
+.header
+{
+    display: flex;
+    height:40px;
+    margin: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.header a
+{
+    text-decoration: none;
+    color:black
+}
+
+.header a:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s smooth;
+    color:rgb(0, 0, 0);
+    /* text-decoration:underline color-mix(in srgb, rgb(18, 91, 175) 70%, rgb(98, 226, 226) 30%); */
+
+}
+
+.profile 
+{
+    width:50px;
+    height: 50px;
+    /* overflow: hidden; */
+
+}
+
+.profile>img
+{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+
+.header .logo
+{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    
+
+}
+
+.header .courses
+{
+    display:flex;
+    background-color: rgb(29, 7, 231);
+    width: 110px;
+    color: aliceblue;
+    height: 40px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.top-grid
+{
+    margin: 40px 20px;
+    display:flex;
+    width:auto;
+    height: 130px;
+    background: linear-gradient(130deg, rgb(7, 10, 54),rgb(5, 2, 19));
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: wheat;
+    box-shadow: 2cm;
+    border-style:solid;
+    border-color: rgb(74, 138, 235);
+    
+
+}
+
+/* 
+.top-grid a
+{
+    text-decoration: none;
+    color: aliceblue;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(86, 193, 235);
+    border-radius: 10px;
+} */
+
+
+.check a
+{
+    color: aliceblue;
+
+}
+.check
+{
+    margin-left: 200px;
+    display: flex;
+    background-color: rgb(12, 65, 161);
+    width: 150px;
+    height: 50px;
+    font-size: 1.7rem;
+    align-items:center ;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+}
+
+.front1
+{
+    display: flex;
+    height: 120px;
+
+    justify-content: center;
+    font-family: "Bruno Ace SC", serif;
+    font-weight: 400;
+    font-style: normal;;
+    font-size: 80px;
+   
+
+
+}
+
+.front2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+
+}
+
+.front-des
+{
+    display:flex;
+    justify-content: center;
+    margin:30px auto ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.explore
+{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    background-color: aquamarine;
+    align-items: center;
+    margin:0 40vmax ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-weight: 600;
+    background-color: rgb(16, 52, 170);
+   
+
+
+}
+.sarabun-medium {
+    font-family: "Sarabun", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.parent1
+{
+    display: flex;
+    justify-content: center;
+
+}
+.why
+{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top:40px;
+    align-items: center;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch:extra-condensed;
+    font-weight: 800;
+}
+.reasons-list
+{
+    display:flexbox;
+    font-size: 20px;
+    justify-content: space-evenly;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: aliceblue;
+    
+    
+    
+}
+
+
+.reason1 , .reason3
+{
+    display:flex;
+    background-color: rgb(16, 16, 71);
+    height: 330px;
+    width:570px;
+    margin-top:30px;
+    margin-left:  70px;
+    justify-content: space-between;
+    border-radius: 50px;
+    
+
+    
+}
+
+.reason4,.reason2
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 16, 71);
+    height: 330px;
+    width:570px;
+    margin-left:700px;
+    margin-top: -100px;
+    text-indent: 10px;
+    border-radius: 50px;
+}
+
+.text
+{
+    margin-left: 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+.reason4,.reason2,.reason1 , .reason3 img
+{
+    overflow: hidden;
+    
+
+
+}
+
+.record
+{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    color:azure;
+    font-family: "DM Serif Display";
+
+    justify-content: space-evenly;
+    background-color: rgb(7, 25, 73);
+    height: 200px;
+    margin-top: 100px;
+    width: 100%;
+    
+    
+
+}
+
+
+.course
+{
+
+    height: 100px;
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;
+    padding-top: 80px;
+    font-size: 70px;
+    font-family: "DM Serif Display";
+    font-weight: 500px;
+    padding-bottom: 30px;
+    /* justify-content: center; */
+
+}
+
+
+.level
+{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: space-evenly;
+}
+.level-box 
+{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+.level-up
+{
+    background-color: rgb(5, 5, 31);
+    height: 130px;
+    width:290px;
+    color:azure;
+    font-size: 45px;
+    padding-left:  30px;
+    box-sizing: border-box;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+    
+
+
+}
+.text-head
+{
+    margin-bottom: 20px;
+}
+
+.level-down
+{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 320px;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.student
+{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    /* padding-right: 30px; */
+    align-content: center;
+    /* background-color: rebeccapurple; */
+    padding-bottom: 10px;
+
+}
+
+.reason3
+{
+    margin-top: -100px;
+}
+
+.student-text
+{
+    font-size: 20px;
+    width: 40p;
+}
+
+::-webkit-scrollbar 
+{
+    display: none;
+}
+
+.Explore
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 20px;
+    height: 50px;
+    align-items: center;
+
+
+}
+
+.exp-button
+{
+    height: 55px;
+    color: azure;
+    font-weight: 500;
+    font-size: 20px;
+    align-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(22, 99, 214);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.exp-button:hover
+{
+    transform: scale(1.03);
+    transition: 0.1s ease;
+}
+
+
