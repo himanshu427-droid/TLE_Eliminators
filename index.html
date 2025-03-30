@@ -4,17 +4,13 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=DM+Serif+Display:ital@0;1&family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monomakh&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TLE Eliminators</title>
-    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -26,15 +22,20 @@
 
         </div>
 
-        <a href="home.html">Home</a>
-       <a href="home.html">Content</a>
-       <a href="home.html">Cp-31 Sheet</a>
-       <a href="home.html">Mentors</a>
+       
+        <li>Home</li>
+        <li>Content</li>
+        <li>CP-31 Sheet</li>
+        <li>Our Mentors</li>
+        
         <div class="courses">
             Courses
         </div>
         <div class="profile">
             <img src="https://www.shutterstock.com/image-vector/user-icon-trendy-flat-style-600nw-1697898655.jpg">
+        </div>
+        <div>
+            <button id="theme-btn" onclick="themechange()" style="background: transparent; border:none"><div id="themer" style="font-size:25px;"><i id="theme-icon" class="fa-solid fa-sun"></i></div></button>
         </div>
     </div>
     <div class="top-grid">
@@ -44,7 +45,7 @@
         </div>
 
     </div>
-    <div class="front1">
+    <div class="front1" id="front1">
         <font style="color: rgb(7, 169, 190);
     font-weight: 700;">TLE</font>
         <pre> </pre>Eliminators
@@ -62,6 +63,7 @@
     <div class="parent1">
         <div class="why">
             Why Choose Us?
+            
         </div>
 
     </div>
@@ -75,7 +77,7 @@
         </div>
         <div class="reason2">
             <div class="text"><div class="text-head"><h2 > Weekly Live Code Classes</h2></div>
-W provide Live coding classes on the most relevant CP topics, taught by instructors with years of experience in both teaching and practising CP.
+We provide Live coding classes on the most relevant CP topics, taught by instructors with years of experience in both teaching and practising CP.
                 </div>
                 <div class="rimg"><img src="https://www.tle-eliminators.com/static/media/progress%20tracking%201.46e0241eaab025ca8d5d.png"></div>
             
@@ -206,9 +208,83 @@ Stay motivated with our Codeforces integration and TLE Leaderboard, and track yo
         Meet Our Founder
     </div>
     
+    <div class="founder-box">
+        <div class="f-up">
+           Priyansh Agrawal
+        </div>
+        <div class="f-down">
+            <div class="d-left" id="d_left">
+                <ul>
+                <li>ICPC World Finalist</li>
+               <li>AIR 1 and Global Rank 6 in Google Kick Start</li>
+               <li>Taught 10000+ students at TLE Eliminators</li>
+               <li>Master (India Rank 34) on Codeforces</li>
+               <li>150k+ Linkedin | 100k+ Twitter | 70k+ Youtube</li>
+                </ul>
+                <i class="fa-solid fa-quote-left quoticon"></i>
+                <div style="line-height:normal; margin-left:10%; margin-top:-7%">
+                I wish there was something like TLE Eliminators when I started Competitive Programming.
+                </div>
+                <i class="fa-solid fa-quote-right quoticon" style="margin-left: 65%; margin-top: -45%"></i>    
+            </div>
+            <div class="d-right">
+                <div class="right-img">
+
+                </div>
+                <div class="social-div">
+                    <i class="fa-solid fa-chart-simple sicon"></i>
+                    <i class="fa-brands fa-youtube sicon"></i>
+                    <i class="fa-brands fa-linkedin-in sicon"></i>
+                    <i class="fa-brands fa-twitter sicon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot-up">
+          <div class="foot-list">
+            <ul>
+                <li><b>Courses</b></li>
+                <li>Level 1</li>
+                <li>Level 2</li>
+                <li>Level 3</li>
+                <li>Level 4</li>
+            </ul>
+          </div>
+          <div class="foot-list">
+            <ul>
+                <li><b>Information</b></li>
+                <li>FAQs</li>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="foot-list">
+            <ul>
+                <li><b>Company</b></li>
+                <li>Our Members</li>
+                <li>Contact Us</li>
+                <li>Report bug</li>
+            </ul>
+          </div>
+          <div class="foot-list">
+            <ul>
+                <li><b>Socials</b></li>
+                <li>Discord </li>
+                <li>LinkedIn</li>
+                <li>YouTube</li>
+                <li>Twitter</li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-down">
+            <div class="logo"><img src="https://www.tle-eliminators.com/logo.png"></div>
+            &nbsp; TLE Eliminators &nbsp; | &nbsp; All Rights Reserved
+        </div>
+    </div>
+
+    <script src="script.js"></script>
     
-
-
 </body>
 
 </html>
